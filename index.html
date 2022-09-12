@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta property="og:title" content="Basketball Score LED">
+    <meta property="og:type" content="object" />
+    <meta property="og:image" content="bbsled.gif">
+    <meta property="og:url" content="index.htm">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="board">
+        <h1>SCORE BOARD</h1>
+    <div class="container">
+      <div class="card">
+        <h3>HOME</h3>
+        <div class="score">
+            <div class="digits">
+                <p class="pts-shadow">888</p>
+                <p class="pts" id="home-score">0</p>   
+            </div>
+        </div>
+         <div class="score-btns">
+            <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+1</button>
+            <button id="home-score-btn-2" onclick="increaseHomeScoreTwo()">+2</button>
+            <button id="home-score-btn-3" onclick="increaseHomeScoreThree()">+3</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>GUEST</h3>
+        <div class="score">
+            <div class="digits">
+                <p class="pts-shadow">888</p>
+                <p class="pts" id="guest-score">0</p>
+            </div>
+        </div>
+         <div class="score-btns">
+            <button id="guest-score-btn-1" onclick="increaseGuestScoreOne()">+1</button>
+            <button id="guest-score-btn-2" onclick="increaseGuestScoreTwo()()">+2</button>
+            <button id="guest-score-btn-3" onclick="increaseGuestScoreThree()">+3</button>
+        </div>
+      </div>
+      <div class="clear-wrap"> 
+      <button id="clear" onclick="clearAll();">Clear All</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

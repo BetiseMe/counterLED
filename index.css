@@ -1,0 +1,153 @@
+@font-face {
+  font-family: CursedTimerUlil;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 3rem 2rem;
+  background-image: repeating-linear-gradient(
+    to right,
+    #625f53,
+    #4f4526 1px,
+    transparent 1px,
+    transparent
+  );
+  background-size: 113px 113px;
+  background-color: #cfbba9;
+  caret-color: transparent;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 7rem;
+  color: #e4e4e4;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.5rem;
+  color: #d6d5d0;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.board {
+  background-color: #194924;
+  background-image: radial-gradient(
+    ellipse farthest-corner at 4px 4px,
+    #165424,
+    #165424 25%,
+    #194924 75%
+  );
+  background-size: 4px 4px;
+  padding: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 10px 12px 10px #00000040;
+  border: 6px solid #f1f0e8;
+  outline: 2px solid #dad8cf;
+}
+
+.score {
+  position: relative;
+  background-color: #160f0f;
+  box-shadow: inset 1px 1px 0px 4px #575757;
+  margin: 0;
+  width: 210px;
+  height: 120px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  background: #0b311980;
+  min-width: 215px;
+  margin: 0 auto;
+  padding: 0 3rem 3rem;
+  border: 4px solid #989f9a;
+  border-radius: 10px;
+}
+
+.pts {
+  position: absolute;
+  top: -5rem;
+  left: 1rem;
+  font-family: CursedTimerUlil;
+  font-size: 6rem;
+  color: #b71818;
+  text-shadow: 0 0 10px #ad0606b5;
+}
+
+.pts-shadow {
+  position: absolute;
+  top: -5rem;
+  left: 1rem;
+  font-family: CursedTimerUlil;
+  font-size: 6rem;
+  color: #5c070794;
+}
+
+.score-btns {
+  position: relative;
+  top: 1rem;
+}
+
+button {
+  background: #0b311980;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  font-kerning: none;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  border-radius: 5px;
+  border: 1px solid #989b9f;
+  border-width: 2px 1px;
+  padding: 5px 20px 5px 20px;
+  margin: 4px;
+  color: #ffffff;
+}
+
+button:hover {
+  background: #162e1e;
+}
+
+button:active {
+  background: #18532e80;
+  transform: translateY(1px);
+}
+
+.clear-wrap {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#clear {
+  border-width: 2px;
+}
+
+#clear:hover {
+  background: #893333;
+  transform: scale(1.2);
+  box-shadow: #0000003d 0px 10px 15px 3px, #0000000d 0px 4px 6px 2px;
+}
+
+#clear:active {
+  background: #2e6e13;
+  transform: scale(1);
+}

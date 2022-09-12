@@ -1,6 +1,6 @@
 # Basketball scoreboard solo project
 
-## ![SCOREBOARD WITH LED DIGITS](/assets/images/bbcled.gif)
+## ![SCOREBOARD WITH LED DIGITS](bbcled.gif)
 
 This is version two of two designs. I couldn't decide, so I made it in two versions. This one has a multi-layered CSS background. You could push it further, but I didn't find that it did much (just slowed down the load time).
 

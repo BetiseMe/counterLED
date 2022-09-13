@@ -4,6 +4,8 @@
 
 This is version two of two designs. I couldn't decide, so I made it in two versions. This one has a multi-layered CSS background. You could push it further, but I didn't find that it did much (just slowed down the load time).
 
+[Live Demo](https://ledscore.netlify.app/)
+
 ## About the course
 
 Learn Javascript for free is a beginner's course that guides you through all the necessary steps. I have enjoyed it so far. I have some concerns about writing JavaScript in HTML, but I guess it's much easier for a beginner to do it like that. FreeCodeCamp and The Odin Project take a different approach. I like their beginner lessons better, but this is a good start.

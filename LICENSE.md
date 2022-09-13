@@ -1,4 +1,4 @@
-#Basketball Scoreboard LED
+# Basketball Scoreboard LED
 
 This work (Solo Project - Basketball Scoreboard, by [Scrimba](https://scrimba.com/)), redesigned
 by BetiseMe 2022, is free from known copyright restrictions.

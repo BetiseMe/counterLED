@@ -1,4 +1,4 @@
-# Basketball scoreboard solo project
+# Basketball Scoreboard LED
 
 ## ![SCOREBOARD WITH LED DIGITS](https://github.com/BetiseMe/counterLED/blob/main/bbsled.gif?raw=true)
 

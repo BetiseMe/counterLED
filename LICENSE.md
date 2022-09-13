@@ -30,4 +30,4 @@ Other Information:
     * When using or citing the work, you should not imply endorsement
     by the author or the affirmer.
 
-[See Creative Commons information](http://creativecommons.org/licenses/bypublicdomain/zero/1.0/legalcode)
+[See Creative Commons information](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
